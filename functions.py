@@ -20,30 +20,3 @@ def addLineToJsonFile(filename, newData):
         imf.messagebox.showinfo(title="PERMISION ERROR", message="file permision error", icon="warning")
     except Exception as e:
         imf.messagebox.showinfo(title="ERROR", message=f"error: {e}", icon="error")
-
-
-# firstName = "Borsbsbfaq"
-# lastName = "Nezar"
-# title = "Mr."
-# age = 27
-# nation = "Iraq-IQ"
-# regStat = True
-# national = "OK1"
-# terms = False
-
-# oldData = readJsonFile('json/users.json')
-
-# oldData['users'][firstName.upper()] = {
-#     "FirstName": firstName,
-#     "LastName": lastName,
-#     "Title": title,
-#     "Age": age,
-#     "Nationality": nation,
-#     "Registration_Status": regStat,
-#     "Nationalitys": national,
-#     "TermsAndConditions": terms
-#     }
-
-# addLineToJsonFile('json/users.json', oldData)
-# after = readJsonFile('json/users.json')
-# print(after)
