@@ -26,9 +26,6 @@ def add():
     else:
         imf.messagebox.showwarning(title="ERROR", message="terms conditional most be checked to send data")
 
-    # imf.func.addLineToJsonFile('json', oldData)
-    # return 'SUCCESS'
-
 root = imf.tk.Tk()
 root.title("Data Entry Project")
 root.option_add("*tearOff", False)
